@@ -16,7 +16,7 @@ The functionality of the buttons are not currently enabled.
 ## Development and Setup.
 
 ### prerequisites
-+ First clone the project to your camputer. ```git clone <repo url>```
++ First clone the project to your computer. ```git clone <repo url>```
 + Ensure you have text editor such as Vs code installed.
 + Extract the files and open them in the editor.
 + Run the index.html file in your browser.

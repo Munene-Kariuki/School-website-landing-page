@@ -69,12 +69,12 @@
 .albert {
   position: relative;
   left: 300px;
-  bottom: 410px;
+  bottom: 430px;
 }
 .raphael {
   position: relative;
   left: 600px;
-  bottom: 815px;
+  bottom: 855px;
 }
 .raphael img {
   height: 200px;
@@ -88,21 +88,21 @@
   width: 300px;
   position: relative;
   left: 900px;
-  bottom: 1230px;
+  bottom: 1285px;
 }
 #tm-name {
   position: relative;
-  bottom: 50px;
+  bottom: 40px;
   color: white;
 }
 #tm-about {
   position: relative;
-  bottom: 50px;
+  bottom: 35px;
 }
 #tm-char {
   position: relative;
-  left: 270px;
-  bottom: 45px;
+  left: 300px;
+  bottom: 35px;
 }
 .technical-mentors {
   width: 600px;
@@ -117,7 +117,7 @@
 }
 #project-message {
   position: relative;
-  left: 100px;
+  left: 120px;
   bottom: 40px;
 }
 .project {
@@ -160,16 +160,16 @@ h4 {
 #moring {
   color: #EC4067;
 }
-#dashboard {
-  word-spacing: 30px;
-  position: relative;
-  left: 650px;
-  bottom: 80px;
-}
-.title {
-  width: 600px;
-  height: 100px;
-}
+
 .design {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  float: left;
+  display: block;
   text-align: center;
 }
