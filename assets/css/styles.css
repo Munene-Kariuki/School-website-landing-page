@@ -23,6 +23,21 @@
   bottom: 250px;
 }
 .stories {
+  height: 400px;
+  width: 600px;
+}
+.board-meeting img {
+  height: 300px;
+  width: 400px;
+  position: relative;
+  left: 500px;
+  bottom: 150px;
+}
+.board-meeting {
   height: 300px;
   width: 600px;
+}
+.board-meeting .body {
+  position: relative;
+  top: 50px;
 }
