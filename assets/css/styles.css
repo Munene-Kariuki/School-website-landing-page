@@ -66,12 +66,12 @@
 .albert {
   position: relative;
   left: 300px;
-  bottom: 385px;
+  bottom: 410px;
 }
 .raphael {
   position: relative;
   left: 600px;
-  bottom: 770px;
+  bottom: 815px;
 }
 .raphael img {
   height: 200px;
@@ -85,7 +85,7 @@
   width: 300px;
   position: relative;
   left: 900px;
-  bottom: 1155px;
+  bottom: 1230px;
 }
 #tm-name {
   position: relative;
@@ -98,7 +98,7 @@
 #tm-char {
   position: relative;
   left: 270px;
-  bottom: 55px;
+  bottom: 45px;
 }
 .technical-mentors {
   width: 600px;
@@ -132,4 +132,7 @@
 #button-1 {
   background-color: #EC4067;
   color: white;
+}
+h4 {
+  color: #EC4067;
 }
