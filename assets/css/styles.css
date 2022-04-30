@@ -55,11 +55,11 @@
   width: 600px;
 }
 
-.technical-mentors .rose img {
+.rose img {
   height: 200px;
   width: 200px;
 }
-.technical-mentors .albert img {
+.albert img {
   height: 200px;
   width: 200px;
 }
@@ -67,4 +67,13 @@
   position: relative;
   left: 300px;
   bottom: 385px;
+}
+.raphael {
+  position: relative;
+  left: 600px;
+  bottom: 770px;
+}
+.raphael img {
+  height: 200px;
+  width: 200px;
 }
