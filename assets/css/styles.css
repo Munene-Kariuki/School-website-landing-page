@@ -77,3 +77,12 @@
   height: 200px;
   width: 200px;
 }
+.christine img {
+  height: 200px;
+  width: 200px;
+}
+.christine {
+  position: relative;
+  left: 900px;
+  bottom: 1155px;
+}
