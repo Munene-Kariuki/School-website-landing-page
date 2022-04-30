@@ -111,3 +111,11 @@
   left: 500px;
   bottom: 250px;
 }
+#project-message {
+  position: relative;
+  left: 100px;
+  bottom: 40px;
+}
+.project {
+  width: auto;
+}
