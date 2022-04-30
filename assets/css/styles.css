@@ -90,6 +90,7 @@
 #tm-name {
   position: relative;
   bottom: 50px;
+  color: white;
 }
 #tm-about {
   position: relative;
@@ -134,5 +135,14 @@
   color: white;
 }
 h4 {
+  color: #EC4067;
+}
+#bike h1 {
+  color: #EC4067;
+}
+.project {
+  height: 500px;
+}
+.conclusion h1 {
   color: #EC4067;
 }
