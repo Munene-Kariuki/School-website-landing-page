@@ -1,3 +1,7 @@
+* {
+  width: 600px;
+}
+
 .moringa img {
   height: 350px;
   width: 400px;
@@ -85,4 +89,21 @@
   position: relative;
   left: 900px;
   bottom: 1155px;
+}
+#tm-name {
+  position: relative;
+  bottom: 50px;
+}
+#tm-about {
+  position: relative;
+  bottom: 50px;
+}
+#tm-char {
+  position: relative;
+  left: 270px;
+  bottom: 55px;
+}
+.technical-mentors {
+  width: 600px;
+  height: 500px;
 }
