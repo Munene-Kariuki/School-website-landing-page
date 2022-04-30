@@ -59,3 +59,12 @@
   height: 200px;
   width: 200px;
 }
+.technical-mentors .albert img {
+  height: 200px;
+  width: 200px;
+}
+.albert {
+  position: relative;
+  left: 300px;
+  bottom: 385px;
+}
