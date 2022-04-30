@@ -1,3 +1,6 @@
+* {
+  font-family: Nunito;
+}
 .moringa img {
   height: 350px;
   width: 400px;
@@ -159,4 +162,8 @@ h4 {
   position: relative;
   left: 800px;
   bottom: 80px;
+}
+.title {
+  width: 600px;
+  height: 100px;
 }
