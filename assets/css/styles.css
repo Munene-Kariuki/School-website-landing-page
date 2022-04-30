@@ -117,5 +117,19 @@
   bottom: 40px;
 }
 .project {
-  width: auto;
+  width: 600px;
+}
+.moringa h1{
+  color:  #EC4067;
+}
+#button {
+  background-color: #EC4067;
+  color: white;
+}
+#button-2 {
+  color:  #EC4067;
+}
+#button-1 {
+  background-color: #EC4067;
+  color: white;
 }
