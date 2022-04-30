@@ -1,0 +1,28 @@
+.moringa img {
+  height: 350px;
+  width: 400px;
+  position: relative;
+  left: 500px;
+  bottom: 250px;
+}
+.moringa #button {
+  position: relative;
+  bottom: 350px;
+}
+.moringa {
+  height: 300px;
+  width: 600px;
+}
+.stories img{
+  height: 300px;
+  width: 500px;
+}
+.stories .body {
+  position: relative;
+  left: 600px;
+  bottom: 250px;
+}
+.stories {
+  height: 300px;
+  width: 600px;
+}
