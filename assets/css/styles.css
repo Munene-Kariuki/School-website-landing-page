@@ -1,5 +1,5 @@
 * {
-  font-family: Nunito;
+  font-family: 'Nunito';
 }
 .moringa img {
   height: 350px;
@@ -149,6 +149,9 @@ h4 {
 .conclusion h1 {
   color: #EC4067;
 }
+.conclusion {
+  height: 200px;
+}
 #school {
   position: relative;
   left: 100px;
@@ -160,10 +163,13 @@ h4 {
 #dashboard {
   word-spacing: 30px;
   position: relative;
-  left: 800px;
+  left: 650px;
   bottom: 80px;
 }
 .title {
   width: 600px;
   height: 100px;
+}
+.design {
+  text-align: center;
 }
