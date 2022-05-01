@@ -57,57 +57,6 @@
   height: 350px;
   width: 600px;
 }
-
-.rose img {
-  height: 200px;
-  width: 200px;
-}
-.albert img {
-  height: 200px;
-  width: 200px;
-}
-.albert {
-  position: relative;
-  left: 300px;
-  bottom: 430px;
-}
-.raphael {
-  position: relative;
-  left: 600px;
-  bottom: 855px;
-}
-.raphael img {
-  height: 200px;
-  width: 200px;
-}
-.christine img {
-  height: 200px;
-  width: 200px;
-}
-.christine {
-  width: 300px;
-  position: relative;
-  left: 900px;
-  bottom: 1285px;
-}
-#tm-name {
-  position: relative;
-  bottom: 40px;
-  color: white;
-}
-#tm-about {
-  position: relative;
-  bottom: 35px;
-}
-#tm-char {
-  position: relative;
-  left: 300px;
-  bottom: 35px;
-}
-.technical-mentors {
-  width: 600px;
-  height: 500px;
-}
 .project img {
   width: 500px;
   height: 400px;
@@ -164,12 +113,53 @@ h4 {
 .design {
   text-align: center;
 }
-ul {
-  list-style-type: none;
+.dashboard {
+  width: 600px;
+  position: relative;
+  left: 450px;
 }
-li a {
-  text-decoration: none;
-  float: left;
-  display: block;
-  text-align: center;
+.title {
+  color: #EC4067;
+}
+.tm-card {
+  border: none;
+}
+.card-header {
+  color: #EC4067;
+  border: none;
+}
+.card-button {
+  background-color: #EC4067;
+}
+.tm-name {
+  position: relative;
+  top: 225px;
+  color: white;
+}
+.albert {
+  position: relative;
+  left: 320px;
+  bottom: 480px;
+}
+.raphael {
+  position: relative;
+  left: 640px;
+  bottom: 960px;
+}
+.christine {
+  position: relative;
+  left: 960px;
+  bottom: 1440px;
+}
+.technical-mentors {
+  width: 600px;
+  height: 600px;
+}
+.not-bold {
+  font-weight: normal;
+}
+.tm-char {
+  position: relative;
+  left: 300px;
+  bottom: 35px;
 }

@@ -9,18 +9,29 @@
     <title>School website landing page</title>
 </head>
 <body>
-    <div class="dashboard">
-        <div class="title">
-            <h1>Moringa School</h1>
-        </div>
-        <div class="nav-bar">
-            <ul>
-                <li id="courses"><a href="#">Courses</a></li>
-                <li id="projects"><a href="#">Our projects</a></li>
-                <li id="stories"><a href="#">Stories</a></li>
-                <li id="enroll"><a href="#"><button type="button" class="btn btn-danger">Enroll</button></a></li>
-            </ul>
-        </div>
+    <div class="navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand title" href="#"><strong>Moringa <span>School</span></strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse dashboard" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Stories</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#"><button type="button" class="btn btn-danger">Enroll</button></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
     </div>
 
     <div class="moringa">
@@ -71,55 +82,54 @@
     </div>
     <div class="technical-mentors">
         <h1>Technical Mentors</h1> 
-        <p id="tm-char">Skilled and kind!</p>
-
+        <p class="tm-char">Skilled and kind!</p>
         <div class="rose">
-            <img src="./assets/images/image 5.png">
-            <p id="tm-name">Rose Oketch</p>
-
-            <div id="tm-about">
-                <h4>Web development</h4>
-            <p>Lorem ipsum dolor sit amedgt<br> consectur adipiscing elit. Nm est<br> purus consectetur sit amet odio<br> sed, umcorper aliqua tortor</p> 
-            <button type="button" class="btn btn-danger">Ask A Question</button>
-            </div>
+            <div class="card tm-card" style="width: 18rem;">
+                <p class="tm-name">Rose Oketch</p>
+                <img src="./assets/images/image 5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title card-header">Web development</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amedgt<br> consectur adipiscing elit. Nm est<br> purus consectetur sit amet odio<br> sed, umcorper aliqua tortor</p> </p>
+                  <a href="#" class="btn btn-primary card-button">Ask A Question</a>
+                </div>
+              </div>
         </div>
 
         <div class="albert">
-            <img src="./assets/images/image 6.png">
-            <p id="tm-name">Albert Byronne</p>
-
-            <div id="tm-about">
-                <h4>Web development</h4>
-            <p>Lorem ipsum dolor sit amedgt<br> consectur adipiscing elit. Nm est<br> purus consectetur sit amet odio<br> sed, umcorper aliqua tortor</p> 
-            <button type="button" class="btn btn-danger">Ask A Question</button>
-            </div>
-            
+            <div class="card tm-card" style="width: 18rem;">
+                <p class="tm-name">Albert Byronne</p>
+                <img src="./assets/images/image 6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title card-header">Web development</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amedgt<br> consectur adipiscing elit. Nm est<br> purus consectetur sit amet odio<br> sed, umcorper aliqua tortor</p> </p>
+                  <a href="#" class="btn btn-primary card-button">Ask A Question</a>
+                </div>
+              </div>
         </div>
 
         <div class="raphael">
-            <img src="./assets/images/image 7.png">
-            <p id="tm-name">Raphael Katana</p>
-            
-            <div id="tm-about">
-                <h4>Web development</h4>
-            <p>Lorem ipsum dolor sit amedgt<br> consectur adipiscing elit. Nm est<br> purus consectetur sit amet odio<br> sed, umcorper aliqua tortor</p> 
-            <button type="button" class="btn btn-danger">Ask A Question</button>
-            </div>
+            <div class="card tm-card" style="width: 18rem;">
+                <p class="tm-name">Raphael Katana</p>
+                <img src="./assets/images/image 7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title card-header">Web development</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amedgt<br> consectur adipiscing elit. Nm est<br> purus consectetur sit amet odio<br> sed, umcorper aliqua tortor</p> </p>
+                  <a href="#" class="btn btn-primary card-button">Ask A Question</a>
+                </div>
+              </div>
         </div>
-
         <div class="christine">
-            <img src="./assets/images/image 8.png">
-            <p id="tm-name">Christine Karimi</p>
-            
-            <div id="tm-about">
-                <h4>Android development</h4>
-            <p>Lorem ipsum dolor sit amedgt<br> consectur adipiscing elit. Nm est<br> purus consectetur sit amet odio<br> sed, umcorper aliqua tortor</p>
-            <button type="button" class="btn btn-danger">Ask A Question</button>
-            </div>
+            <div class="card tm-card" style="width: 18rem;">
+                <p class="tm-name">Christine Karimi</p>
+                <img src="./assets/images/image 8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title card-header">Android development</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amedgt<br> consectur adipiscing elit. Nm est<br> purus consectetur sit amet odio<br> sed, umcorper aliqua tortor</p> </p>
+                  <a href="#" class="btn btn-primary card-button">Ask A Question</a>
+                </div>
+              </div>
         </div>
-
     </div>
-
     <div class="project">
         <h1>Project</h1>
         <p id="project-message">It's hopefully a good one</p>
@@ -134,12 +144,19 @@
 
         <img src="./assets/images/image 9.png">
     </div>
+    </div>
+
 
     <div class="conclusion">
         <h1>Still not sure?</h1>
         <p>Go ahead and <button type="button" class="btn btn-danger">Enroll</button>or contact us.</p>
     </div>
-    <div class="design">Designed by Denis</div>
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          designed with ❤ by
+          <a class="text-dark" href="https://mdbootstrap.com/">J & R</a>
+        </div>
+      </footer>
 
 </body>
 </html>
