@@ -118,8 +118,11 @@ h4 {
   position: relative;
   left: 450px;
 }
-.title {
+#title {
   color: #EC4067;
+}
+#not-colored{
+  color: black;
 }
 .tm-card {
   border: none;
@@ -154,9 +157,6 @@ h4 {
 .technical-mentors {
   width: 600px;
   height: 600px;
-}
-.not-bold {
-  font-weight: normal;
 }
 .tm-char {
   position: relative;
